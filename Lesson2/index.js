@@ -1,3 +1,22 @@
+//Homework
+let totalPrice = 3000,
+    accountBalance = 4000; 
+const isVIP = true;
+
+let status = "wait...";
+console.log(status);
+
+if (isVIP) {
+    totalPrice * (1 - 10 / 100);
+    console.log("true 10%");
+}
+
+if (accountBalance >= totalPrice) {
+    console.log("Успешно! Покупка сделана");
+} else {
+    console.log("Недостаточно средств");
+}
+
 /*
 
 const fileSize = 5001;
@@ -18,22 +37,3 @@ if (fileSize === 0) {
 console.log(status);
 
 */
-
-//Homework
-let totalPrice = 3000,
-    accountBalance = 4000; 
-const isVIP = true;
-
-let status = "wait...";
-console.log(status);
-
-if (isVIP) {
-    totalPrice * (1 - 10 / 100);
-    console.log("true 10%");
-}
-
-if (accountBalance >= totalPrice) {
-    console.log("Успешно! Покупка сделана");
-} else {
-    console.log("Недостаточно средств");
-}
